@@ -6,6 +6,8 @@ class ProductsController < ApplicationController
 
   def show
     @product = Product.find params[:id]
+    puts "HERE HERE HERE HERE HERE HERE ✅"
+    puts Product.find(params[:id]).inspect
   end
 
 end
