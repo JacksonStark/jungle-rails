@@ -51,6 +51,18 @@ main section.categories-show {
         font-size: 0.8em;
       }
 
+      .sold-out {
+        position: relative;
+        display: inline-block;
+        top: -35px;
+        left: -15px;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 4px 0 15px 0;
+        color:black;
+        background-color: pink;
+      }
+
       &:hover {
 
         border-color: #999;
