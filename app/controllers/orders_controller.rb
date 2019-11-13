@@ -2,6 +2,16 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
+    @line_items = LineItem.where(order_id: @order.id)
+    @products = @line_items.map { |item| Product.where(id: item.product_id) }
+    puts "\n\n💰  💰   ORDER ITEMS BELOW   💰  💰\n\n"
+    puts @order.inspect
+    puts "\n💰  💰   LINE ITEMS BELOW   💰  💰\n\n"
+    puts @order.line_items.inspect
+    puts "\n💰  💰   PRODUCT ITEMS BELOW   💰  💰\n\n"
+    puts @order.line_items[0].product.inspect
+    puts "\n💰  💰   --- END ---  💰  💰\n\n"
+
   end
 
   def create

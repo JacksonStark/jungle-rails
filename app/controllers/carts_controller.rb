@@ -2,7 +2,7 @@ class CartsController < ApplicationController
 
   def show
     puts "\n\n🛍   🛍    ENHANCED CART BELOW  🛍   🛍\n\n"
-    puts enhanced_cart
+    puts enhanced_cart.inspect
     puts "\n🛍   🛍    ENHANCED CART ABOVE  🛍   🛍\n\n"
 
   end
