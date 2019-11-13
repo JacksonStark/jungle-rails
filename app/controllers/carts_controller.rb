@@ -1,6 +1,10 @@
 class CartsController < ApplicationController
 
   def show
+    puts "\n\n🛍   🛍    ENHANCED CART BELOW  🛍   🛍\n\n"
+    puts enhanced_cart
+    puts "\n🛍   🛍    ENHANCED CART ABOVE  🛍   🛍\n\n"
+
   end
 
   def add_item
