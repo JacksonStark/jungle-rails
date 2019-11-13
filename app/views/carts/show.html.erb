@@ -4,6 +4,17 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if !cart.present? %>
+
+  <section class="alert alert-info">
+    <h2 style="font-style: italic">Your cart is empty, lets fill it up!</h2>
+    <br>
+    <h5><%= link_to '----> Take Me Shopping', products_path %></h5>
+  </section>
+
+  <% else %>
+
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +59,7 @@
       <% end %>
     </div>
   </div>
+
+  <% end %>
 
 </section>
