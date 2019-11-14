@@ -1,19 +1,47 @@
 Rails.application.routes.draw do
 
-  root to: 'products#index'
 
+  root to: 'products#index'
   get '/about' => 'about#show'
-  
+
+
+
+  # renders a a signup form in the browser
+  get '/signup' => 'users#new'
+
+  # receives form and creates user in DB using data given by user
+  post '/users' => 'users#create'
+
+
+
+
+  # renders a login form in the browser
+  get '/login' => 'sessions#new'
+
+  # logs a user in
+  post '/login' => 'sessions#create'
+
+  # logs a user out
+  get '/logout' => 'sessions#destroy'
+
+
+
+  # ALL products routes 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
+  # ALL cart routes
   resource :cart, only: [:show] do
     post   :add_item
     post   :remove_item
   end
 
+  # ALL orders routes
   resources :orders, only: [:create, :show]
 
+
+  
+  # ALL admin routes ( /products..., /categories... )
   namespace :admin do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
