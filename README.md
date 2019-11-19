@@ -39,7 +39,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## All Products
 
-!["All Products"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/admin-all-products.jpg?raw=true)
+!["All Products"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/all-products.jpg?raw=true)
 
 ## My Cart
 
