@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Jungle is a mini e-commerce application built with Rails 4.2, optimal for those eager to learn the fundamentals of a Rails app.
 
 
 ## Setup
@@ -25,3 +25,42 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Login / Logout Functionality
+
+- When signing up for an account, a validator for passwords to contain at least 3 characters is in place.
+
+- If the login form is submitted with any field left blank, the login page is refreshed.
+
+- An http authentication is also in place for access to anything under the namespace 'admin'.
+
+
+# Final Product
+
+## All Products
+
+!["All Products"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+
+## My Cart
+
+!["My Cart"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+
+## Checkout
+
+!["Checkout"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+
+## Order Confirmation
+
+!["Order Confirmation"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+
+## Admin Dashboard
+
+!["Admin Dashboard"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+
+## Admin: All Products
+
+!["Admin: All Products"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+
+## Admin: New Product
+
+!["Admin: New Product"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
