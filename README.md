@@ -39,28 +39,28 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## All Products
 
-!["All Products"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+!["All Products"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/admin-all-products.jpg?raw=true)
 
 ## My Cart
 
-!["My Cart"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+!["My Cart"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/my-cart.jpg?raw=true)
 
 ## Checkout
 
-!["Checkout"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+!["Checkout"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/checkout.jpg?raw=true)
 
 ## Order Confirmation
 
-!["Order Confirmation"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+!["Order Confirmation"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/order-confirmation.jpg?raw=true)
 
 ## Admin Dashboard
 
-!["Admin Dashboard"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+!["Admin Dashboard"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/admin-dashboard.jpg?raw=true)
 
 ## Admin: All Products
 
-!["Admin: All Products"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+!["Admin: All Products"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/admin-all-products.jpg?raw=true)
 
 ## Admin: New Product
 
-!["Admin: New Product"](https://github.com/JacksonStark/Scheduler/blob/master/docs/fully-booked.jpg?raw=true)
+!["Admin: New Product"](https://github.com/JacksonStark/jungle-rails/blob/master/docs/admin-new-product.jpg?raw=true)
